@@ -6,12 +6,14 @@
 .wall          { background: rgb(100, 100, 100); }
 .floater       { background: rgb(255, 50, 50); }
 
-.actor {position: absolute};
-.player {background: rgb(255, 60, 60)
+.actor  { position: absolute;  }
+.player { background: rgb(180, 60, 60); }
+.coin { background:rgb(46, 255, 46);}
+.droplet { background: rgb(100, 100, 255); }
 
 .game {
-	overflow: hidden;
-	max-width: 600px;
-	max-height: 450px;
-	position: relative;
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
 }
